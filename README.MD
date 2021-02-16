@@ -9,6 +9,8 @@ The user's robot is controlled with WASD -- and enemy robots will be fired by th
 
 The robots also have a laser, but with shorter range. So maintaining a healthy distance away from enemy robots will be key, and avoiding getting entangled with multiple robots at one time will also be key.
 
+The user's robot will slowly regenerate its health on its own. 
+
 Victory Condition: 101 enemy Robots are defeated (health< 0)
 
 Loss Condition: Player's Robots are defeated (health < 0)
