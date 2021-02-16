@@ -424,8 +424,8 @@ class humanControllableCrawler extends Crawler{
     tryToTeleport(x,y){
 
         if(this.teleportCounter >= teleportThreshold){
-        this.x = x
-        this.y =y
+        this.x = x - this.width/2
+        this.y =y - this.width/2
         this.teleportCounter = 0
         }
         

@@ -86,10 +86,21 @@ ul{
 
 }
 
+ol{
+  color:red;
+  text-align:left;
+  
+}
+
 #endDiv{
   display:none;
 }
 
 #endMessage{
   font-size: 128px;
+}
+
+#box{
+position:fixed;
+left:25%;
 }
